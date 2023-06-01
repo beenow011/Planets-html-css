@@ -1,0 +1,316 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Almarai&family=Fredoka+One&family=Sassy+Frass&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f2e8ff;
+}
+p{
+    font-family: 'Almarai', sans-serif;
+    font-size: 23px;
+}
+.row1{
+    background-image: linear-gradient(to bottom ,rgb(140, 91, 200),rgb(152, 104, 210),rgb(174, 127, 232) ,rgb(152, 104, 210),rgb(140, 91, 200) );
+    height: 130px;
+    width: 100vw ;
+    display: flex;
+    position:fixed;
+    z-index: 100;
+    top:0;
+  
+}
+.title1{
+    width: 60vw;
+    cursor:default;
+    font-family: F2;
+    /* position: relative;
+    top: 45px; */
+    margin-right: 200px;
+    letter-spacing: 20px;
+    font-size: 40px;
+    display: flex;
+    margin: auto 0 auto 0;
+}
+#lg{
+    margin-left: 80px;
+}
+.heading{
+    padding-top: 7px;
+    margin-left: 50px;
+}
+.searchbar{
+    height:130px;
+    display: flex;
+    
+    position: absolute;
+    right:72px;
+    /* margin-left: auto; */
+    /* margin: auto; */
+}
+.searchbar input{
+    height: 35px;
+    width: 226px;
+    margin: auto;
+    padding-left: 16px;
+    border-radius: 5px;
+    background-color: rgba(236, 234, 238, 0.551);
+    border: 0;
+    /* box-shadow: 2px 2px; */
+}
+.searchbar input:hover{
+    background-color: rgba(181, 175, 186, 0.551);
+
+}
+.searchbar button{
+   
+    height: 35px;
+    width: 35px;
+    margin: auto;
+    margin-left: 14px;
+    background-color: rgba(236, 234, 238, 0.551);
+    border-radius: 3px;
+    border: 0;
+
+}
+.searchbar button:hover{
+    background-color: rgba(166, 164, 169, 0.551);
+    border-radius: 15%;
+    
+}
+.searchbar img{
+    width: 30px;
+}
+.row2{
+    /* margin-top: 10px;
+    margin-left: 10px; */
+    margin-top: 130px;
+}
+.pla1{
+    width: 100vw;
+    display: flex;
+}
+.pla1 img{
+    width: 60vw;
+    height: 60vh;
+
+}
+.text{
+    width: 40px;
+    /* font-family: F2; */
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    margin: auto 200px;
+    background-color: rgb(196, 90, 33);
+}
+/* .text:hover{
+    padding-right: 250px;
+    
+} */
+.text h4{
+    font-family: F2;
+    /* width: 100px; */
+    font-size: larger;
+    font-family: 'Sassy Frass', cursive;
+    width: 147px;
+font-size: 77px;
+padding-left: 48px;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /* overflow: scroll; */
+}
+.mercury{
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    /* background-color:  #dc75759e; */
+    background-image: linear-gradient(to right, #b78686, #9a686d, #7c4b56, #5f2f41, #42152d);    
+    margin:30px 0 0 50px;
+}
+.main h3{
+    font-family: 'Fredoka One', cursive;
+    margin: 50px;
+    font-size: xxx-large;
+}
+
+.mer_content{
+    
+    display: flex;
+}
+.mer_content h3{
+    background-image: linear-gradient(60deg, #E21143, #FFB03A);
+    background-clip: text;
+}
+.mer_content p{
+    width: 829px;
+    margin-left: 54px;
+}
+.mer_photo figure img{
+  
+    height: 350px;
+    width: 350px;
+    margin-top: 65px;
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.mer_photo{
+    margin-left: 88px;
+}
+.mer_photo figure:hover img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+#mer1{
+    width: 205px;
+}
+
+/*venus*/
+.venus{
+    width: 1500px;
+    height: 500px;
+    display: flex;
+    /* background-color:  #dc75759e; */
+    background-image: linear-gradient(to left, #a08dd4, #6b7ab4, #40658f, #234e67, #153642);   
+     margin:30px 60px 0px 0;
+}
+
+
+
+.ven_content{
+    
+    display: flex;
+}
+.ven_content h3{
+    background-image: linear-gradient(60deg, #E21143, #FFB03A);
+    background-clip: text;
+}
+.ven_content p{
+    width: 829px;
+    margin-left: 54px;
+    display: flex;
+    align-items: flex-end;
+}
+.ven_photo figure img{
+    /* width: 450px; */
+
+    width: 450px;
+
+    height: 350px;
+    margin-top: 65px;
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+.ven_photo{
+    margin-left: 88px;
+}
+
+.ven_photo figure:hover img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+.ver0{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   
+}
+#ven1{
+    width: 205px;
+    align-content: flex-end;
+    /* position: relative;
+  float: right; */
+}
+
+
+
+
+/* EARTH */
+/* .earth{
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    /* background-color:  #dc75759e; */
+    /* background-image: linear-gradient(to right, #b78686, #9a686d, #7c4b56, #5f2f41, #42152d);    
+    margin:30px 0 0 30px;
+
+} */ 
+.eearth{
+    background-image: linear-gradient(to right, #2e98ae, #00a1aa, #00a89b, #00ad82, #17b161);
+}
+.ear_photo figure img{
+    height: 350px;
+    width: 400px;
+}
+
+/* MARS */
+
+.mars{
+    background-image: linear-gradient(to right, #661e31, #843745, #a34f59, #c3696e, #e38484);
+}
+
+/* JUPITER
+ */
+
+ .jupiter{
+    background-image: linear-gradient(to right, #b96902, #ca6c30, #d7714e, #df796a, #e38484);
+ }
+ .jup_photo figure img{
+    
+    height: 337px;
+    width: 373px;
+  margin-top: 83px;
+ }
+
+
+ /* Saturn */
+ .saturn{
+    background-image: linear-gradient(to left, #c0aa41, #a58d32, #8b7125, #705717, #553e0b);
+ }
+ .sat_photo figure img{
+    width: 358px;
+height: 367px;
+margin-top: 65px;
+margin-left: 45px;
+margin-right: 76px;
+    /* width: 356px;
+height: 371px;
+margin-top: 65px; */
+ }
+ .jup_photo figure img{
+    
+    width: 411px;
+    height: 345px;
+    margin-top: 75px;
+ }
+
+ .uranus{
+    background-image: linear-gradient(to right, #41c0ba, #00a9c5, #008fcf, #0070cd, #3f4ab5);
+ }
+ .ur_photo figure img{
+    margin-top: 73px;
+ }
+ .nep_photo figure img{
+    width: 363px;
+    height: 350px;
+    margin-top: 77px;
+    margin-left: 45px;
+    margin-right: 70px;
+ }
+ .mercury:hover,.venus:hover{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.01);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+ }
+ 

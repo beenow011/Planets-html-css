@@ -1,0 +1,265 @@
+#hd{
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
+    background-image: linear-gradient(to right, rgb(15, 24, 44), rgb(11, 51, 82),
+                         rgb(18, 103, 175), rgb(23, 89, 218), rgb(18, 103, 175),
+                         rgb(11, 51, 82), rgb(15, 24, 44));
+    display: flex;
+    justify-content: center;
+}
+
+#hd>a{
+    text-decoration: none;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+                 Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    bottom: -5px;
+    font-size: 20px;
+
+}
+
+#hd>a:hover{
+    position: relative;
+    top: 0px;
+    height: 40px;
+    width:1800px;
+    color: rgb(187, 187, 187);
+    transition: .2s;
+    
+    background-image: linear-gradient(to right, rgb(15, 24, 44), rgb(11, 51, 82),
+                         rgb(9, 55, 96), rgb(13, 38, 88), rgb(11, 61, 106),
+                         rgb(11, 51, 82), rgb(15, 24, 44));
+
+}
+
+.intro{
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+   
+    height: 2cm;
+    width: 100vw;
+    background-color: rgb(42, 25, 83);
+    margin-top: 0px;
+ 
+}
+
+.lgsym{
+    height: 55px;
+    position: relative;
+    top:10px;
+    left:-170px;
+}
+
+.lis{
+    display: flex;
+margin-top: auto;
+margin-bottom: auto;
+}
+.lis ul{
+    display: flex;
+}
+.lis li{
+    margin-right: 20px;
+}
+.heading{
+    width: 20vw;
+    margin-right: 40px;
+}
+.hover-items{
+    /* display: flex;
+    flex-direction: row; */
+    display: flex;
+    
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200px;
+    font-size: 20px;
+    margin-right: 30px;
+    
+    
+    list-style-type: none; 
+
+}
+
+ .lg1 {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 30px;
+    display: flex;
+    float:left;
+    position: relative;
+    top:-13px;
+    left:120px;
+    font-family: BC;
+}
+
+.lg2{
+    color: rgb(144, 143, 143);
+    font-weight: bolder;
+    font-size: 30px;
+    display: flex;
+    float:left;
+    position: relative;
+    top:-13px;
+    left:120px;
+    font-family: BC;
+}
+
+@font-face {
+    font-family: BC;
+    src: url(SecularOne-Regular.ttf) format(truetype);
+}
+/*
+.lis li #l4{
+    display: inline-block;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200px;
+    font-size: 20px;
+    margin-right: 0px;
+    position: fixed;
+    left: 400px;
+    top:65px;
+    list-style-type: none;   
+}
+
+.lis li #l3{
+    display: inline-block;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200px;
+    font-size: 20px;
+    margin-right: 0px;
+    position: fixed;
+    left: 500px;
+    top:65px;
+    list-style-type: none;   
+}
+
+.lis li #l2{
+    display: inline-block;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200px;
+    font-size: 20px;
+    margin-right: 0px;
+    position: fixed;
+    left: 640px;
+    top:65px;
+    list-style-type: none;   
+}
+
+.lis li #l1{
+    display: inline-block;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200px;
+    font-size: 20px;
+    margin-right: 0px;
+    position: fixed;
+    left: 770px;
+    top:65px;
+    list-style-type: none;   
+} */
+
+.hover-items:hover {
+        display: flex;
+        background-color: rgba(240, 255, 255, 0.196);
+        padding:12px ;
+        border-radius: 7px;
+        color:rgb(255, 255, 255);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 200px;
+        font-size: 20px;
+        margin-right: 0px;
+        
+        transition: .1s;
+        list-style-type: none;   
+}
+
+/* .lis a#l2:hover {
+    display: inline-block;
+    background-color: rgba(240, 255, 255, 0.196);
+    padding:12px ;
+    border-radius: 7px;
+    color:rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200px;
+    font-size: 20px;
+    margin-right: 0px;
+    position: fixed;
+    left: 630px;
+    top:54px;
+    transition: .1s;
+    list-style-type: none;   
+}
+
+.lis a#l3:hover {
+    display: inline-block;
+    background-color: rgba(240, 255, 255, 0.196);
+    padding:12px ;
+    border-radius: 7px;
+    color:rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200px;
+    font-size: 20px;
+    margin-right: 0px;
+    position: fixed;
+    left: 490px;
+    top:54px;
+    transition: .1s;
+    list-style-type: none;   
+}
+
+.lis a#l4:hover {
+    display: inline-block;
+    background-color: rgba(240, 255, 255, 0.196);
+    padding:12px ;
+    border-radius: 7px;
+    color:rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200px;
+    font-size: 20px;
+    margin-right: 0px;
+    position: fixed;
+    left: 390px;
+    top:54px;
+    transition: .1s;
+    list-style-type: none;   
+}
+
+.lis a#l5:hover {
+    display: inline-block;
+    background-color: rgba(240, 255, 255, 0.196);
+    padding:20px 25px;
+    border-radius: 7px;
+    color:rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200px;
+    font-size: 20px;
+    margin-right: 0px;
+    position: fixed;
+    left: 930.5px;
+    top:58px;
+    transition: .1s;
+    list-style-type: none;   
+} */
+
+#d3{
+    height: 50px;
+    position: fixed;
+    top: 52px;
+    left:930px;
+}
+
+#sh{
+    height: 20px;
+
+}
